@@ -1,0 +1,16 @@
+#============================================================================#
+# Convert Python to exe
+#============================================================================#
+# Windows defender dapat memungkinkan file exe python tidak dapat dijalankan
+# Pastikan pip dan pyinstaller telah diinstal / versi terbaru
+
+# cd ke directory yang menyimpan file python .py
+# ketikkan: pyinstaller -F -w -i (nama_icon.ico) nama_file.py
+
+# -F              : Menyatukan semua file menjadi 1 file
+# -w              : Menghilangkan window terminal (opsional, Jika menggunakan GUI lebih baik dihilangkan)
+# -i              : Menambahkan custom icon apps, berikan nama_icon format file ico
+# nama_file.py    : Nama file program python
+
+# .exe akan berlokasi di folder dist
+#============================================================================#

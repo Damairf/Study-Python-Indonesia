@@ -1,0 +1,16 @@
+#============================================================================#
+# Python pip
+#============================================================================#
+# Pip = Package manager untuk packages dan modules dari Python Package Index
+
+#   Included untuk Python versi 3.4++
+#   Gunakan command prompt untuk mengakses
+
+#   Help                            : pip
+#   Check                           : pip --version
+#   Update                          : pip install --upgrade pip
+#   Installed Packages              : pip list
+#   Check Outdated Packages         : pip list --outdated
+#   Update Installed Packages       : pip install "Nama Package" --upgrade
+#   Install Package                 : pip install "Nama Package"
+#============================================================================#
